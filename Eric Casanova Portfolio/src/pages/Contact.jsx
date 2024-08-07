@@ -19,9 +19,36 @@ const Contact = () => {
     </section>
   );
 
-  const handleSubmit = (e) => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission
+    setStatus('Sending...');
+    try {
+      const response = await fetch('url_to_submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+      
+      if (response.ok) {
+        setStatus('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        setStatus('Failed to send message. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error submitting the form:', error);
+      setStatus('An error occurred. Please try again later.');
+    }
   };
 
   return (

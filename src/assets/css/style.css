@@ -28,7 +28,9 @@ header h1 {
     font-size: 40px;
     margin: 0px 10px;
     padding: 10px;
-    background-color: green;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(133 239 255);
 }
 
 nav ul {
@@ -50,34 +52,34 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    border-bottom: 4px solid #ffef0f;
+    border-bottom: 7px solid #ffffff;
 }
 
 .profile-pic img {
     border-radius: 50%;
     max-width: 150px;
-    border: 10px solid green;
+    border: 10px solid rgb(2, 3, 2);
 }
 
 .container {
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: green;
+    background-color: rgb(0, 0, 0);
 }
 
 .section-contents {
     width: 100%;
-    max-width: 1200px;
+    max-width: 100%;
 }
 
 .section {
     display: flex;
     margin-bottom: 40px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(133 239 255);
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 010px rgba(0, 0, 0, 0.1);
 }
 
 .section-header {

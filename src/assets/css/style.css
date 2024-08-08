@@ -8,14 +8,13 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #333;
-    background-image: url('/assets/images/background.avif');
+    background-image: url(/src/assets/images/2b7cc278-e951-4783-bbbc-f22d671c344c.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     color: rgb(56, 228, 56);
-    padding: 10px 0;
-}
+    padding: 12px 0px 123px 0px}
 
 .header-content {
     display: flex;
@@ -82,11 +81,16 @@ nav ul li a:hover {
 }
 
 .section-header {
+
     display: flex;
-    align-items: baseline;
-    justify-content: flex-end;
+    align-items: center;
     padding-right: 20px;
     border-right: 2px solid #000;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
 }
 
 .section-header h2 {

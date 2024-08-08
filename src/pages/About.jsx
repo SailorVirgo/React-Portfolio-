@@ -4,6 +4,9 @@ const About = () => (
   <section id="about" className="section">
     <div className="section-header">
       <h2>About Me</h2>
+      <div className="profile-pic">
+      <img src="/src/assets/images/profilepicturedemo.jpg" alt="Profile Picture" />
+    </div>
     </div>
     <div className="section-content">
       <p>

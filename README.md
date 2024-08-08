@@ -42,21 +42,21 @@ project-root/
 - **Overlapping Elements:** Custom design with overlapping text and images for a modern look.
 
 ## Usage
-To use this project, simply clone the repository and open the `index.html` file in your web browser.
+To use this project, simply clone the repository and run the following command in the terminal.
+
+
 
 ```bash
-git clone git@github.com:SailorVirgo/Casanovas-Portfolio.git
-cd Casanovas-Portfolio
+git clone https://github.com/SailorVirgo/React-Portfolio-.git
+cd React-Portfolio
 open index.html
 ```
-### Link to my Portfolio 
-```bash
-https://sailorvirgo.github.io/Casanovas-Portfolio/
-```
+### Link to m
+
+(❁´◡`❁)
 
 
-## Screenshots
-![Screenshot 2024-08-05 164204](https://github.com/user-attachments/assets/6c118add-15b9-44c7-af48-51c4ea6f7efd)
+
 
 
 ## Contact
